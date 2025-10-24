@@ -3,7 +3,7 @@
 ## Product (struct)
 - **Why struct:**
   A Product is a simple data model that represents an immutable piece of information (name, price, etc.).  
-  Products don’t need shared references — if you copy one, it’s still the same product data.
+  Products don’t need shared references - if you copy one, it’s still the same product data.
 - **Behavior:**  
   Value type - each copy is independent.
 
@@ -53,4 +53,5 @@
 4. **Class (reference type)** - modifying cart inside a function affects the original.  
 5. **Struct (value type)** - changing CartItem copy doesn’t affect the original.  
 6. **Order snapshot** - after clearing cart, order remains unchanged.
+
 
